@@ -40,5 +40,17 @@
     cursor: pointer;
     margin-top: 10px;
     color: #747474;
-    font-size: max(1.4vw);
+    font-size: max(1.4vw,16px);
+}
+
+.exploremenu hr{
+    background-color: #e2e2e2;
+    margin: 10px 0px;
+    height: 2px;
+    border: none;
+}
+
+.exploremenu-list-item .active{
+    border: 4px solid tomato;
+    padding: 2px;
 }
